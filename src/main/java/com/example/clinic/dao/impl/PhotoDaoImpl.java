@@ -4,9 +4,10 @@ import com.example.clinic.dao.PhotoDao;
 import com.example.clinic.entity.Photo;
 import com.example.clinic.repository.PhotoRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+@Component
 @RequiredArgsConstructor
 public class PhotoDaoImpl implements PhotoDao {
     private final PhotoRepository photoRepository;

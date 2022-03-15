@@ -4,9 +4,10 @@ import com.example.clinic.dao.DoctorDao;
 import com.example.clinic.entity.Doctor;
 import com.example.clinic.repository.DoctorRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+@Component
 @RequiredArgsConstructor
 public class DoctorDaoImpl implements DoctorDao {
 

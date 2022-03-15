@@ -4,10 +4,11 @@ import com.example.clinic.dao.PhoneNumberDao;
 import com.example.clinic.entity.PhoneNumber;
 import com.example.clinic.repository.PhoneNumberRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
 
 import java.util.List;
-
+@Component
 @RequiredArgsConstructor
 public class PhoneNumberDaoImpl implements PhoneNumberDao {
     private final PhoneNumberRepository phoneNumberRepository;

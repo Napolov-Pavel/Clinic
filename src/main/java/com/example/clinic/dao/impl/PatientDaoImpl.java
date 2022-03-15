@@ -5,9 +5,10 @@ import com.example.clinic.dto.PatientFindDto;
 import com.example.clinic.entity.Patient;
 import com.example.clinic.repository.PatientRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+@Component
 @RequiredArgsConstructor
 public class PatientDaoImpl implements PatientDao {
     private final PatientRepository patientRepository;
